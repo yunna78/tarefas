@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200;1,300;1,400&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500&family=Roboto+Mono:ital,wght@0,600;1,600&display=swap");
+
+:root {
+  --linear-gradient: linear-gradient(90deg, #7d5bce, #00aff5, #e4a547);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background: rgba(63, 0, 0, 0.171);
+  box-shadow: 0px 3px 10px #744bb4;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--linear-gradient);
+  border-radius: 8px;
+  box-shadow: 5px 6px 15px #b17010;
+  font-size: 1.3rem;
+}
+
+.logok {
+  display: flex;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.logo h1 {
+  color: antiquewhite;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #e99c29;
+  font-weight: 400;
+}
+
+.login-button button {
+  border: none;
+  background: var(--linear-gradient);
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.login-button button a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: 500;
+  font-size: 1rem;
+}
